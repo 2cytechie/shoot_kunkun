@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\kunkun">
+      <UniqueIdentifier>{7248a55e-7515-4e74-ad95-a24c6c2891fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -29,11 +32,26 @@
     <ClInclude Include="timer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="util.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="animation.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kunkun.h">
+      <Filter>头文件\kunkun</Filter>
+    </ClInclude>
+    <ClInclude Include="kunkun_fast.h">
+      <Filter>头文件\kunkun</Filter>
+    </ClInclude>
+    <ClInclude Include="kunkun_medium.h">
+      <Filter>头文件\kunkun</Filter>
+    </ClInclude>
+    <ClInclude Include="kunkun_slow.h">
+      <Filter>头文件\kunkun</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
