@@ -34,7 +34,7 @@ public:
 	}
 
 	void on_update(float delta) {
-		if (is_valid) pos.y += speed_run * delta;
+		if (is_alive) pos.y += speed_run * delta;
 
 		animation_current = (is_valid ? &animation_run : &animation_explosion);
 		animation_current->set_pos(pos);
@@ -56,7 +56,7 @@ public:
 	}
 
 	bool check_alive()const {
-		return is_valid;
+		return is_alive;
 	}
 
 	bool can_remove()const {
