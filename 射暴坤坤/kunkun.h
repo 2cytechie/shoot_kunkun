@@ -16,10 +16,10 @@ public:
 		animation_run.set_loop(true);
 		animation_run.set_interval(0.1f);
 
-		animation_explosion.set_loop(true);
+		animation_explosion.set_loop(false);
 		animation_explosion.set_interval(0.08f);
 		animation_explosion.add_frame(&atlas_explosion);
-		animation_explosion.set_on_finished([&] {
+		animation_explosion.set_on_finished([&]() {
 			is_valid = false;
 			});
 
@@ -36,7 +36,7 @@ public:
 	void on_update(float delta) {
 		if (is_alive) pos.y += speed_run * delta;
 
-		animation_current = (is_valid ? &animation_run : &animation_explosion);
+		animation_current = (is_alive ? &animation_run : &animation_explosion);
 		animation_current->set_pos(pos);
 		animation_current->on_update(delta);
 	}

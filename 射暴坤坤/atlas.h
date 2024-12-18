@@ -24,7 +24,7 @@ public:
 			char path_file[256];
 			sprintf_s(path_file, path_template, i + 1);
 			SDL_Texture* texture = IMG_LoadTexture(renderer, path_file);
-			tex_list.push_back(texture);
+			tex_list[i] = texture;
 		}
 	}
 

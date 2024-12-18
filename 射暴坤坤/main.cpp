@@ -112,7 +112,7 @@ void init() {
 
 	timer_generate.set_one_shot(false);
 	timer_generate.set_wait_time(1.5f);
-	timer_generate.set_on_timeout([&] {
+	timer_generate.set_on_timeout([&]() {
 		for (int i = 0; i < num_per_gen; i++) {
 			int val = rand() % 100;
 			KunKun* kunkun = nullptr;
@@ -125,7 +125,7 @@ void init() {
 
 	tiemr_increase_num_per_gen.set_one_shot(false);
 	tiemr_increase_num_per_gen.set_wait_time(8.0f);
-	tiemr_increase_num_per_gen.set_on_timeout([&] {
+	tiemr_increase_num_per_gen.set_on_timeout([&]() {
 		num_per_gen += 1;
 		});
 
@@ -133,7 +133,7 @@ void init() {
 	animation_barrel_fire.set_interval(0.04f);
 	animation_barrel_fire.set_center(center_barrel);
 	animation_barrel_fire.add_frame(&atlas_barrel_fire);
-	animation_barrel_fire.set_on_finished([&] {
+	animation_barrel_fire.set_on_finished([&]() {
 		is_cool_down = true;
 		});
 	animation_barrel_fire.set_pos({ 718,610 });
@@ -177,7 +177,7 @@ void load_resources() {
 	sound_fire_1 = Mix_LoadWAV("resources/fire_1.wav");
 	sound_fire_2 = Mix_LoadWAV("resources/fire_2.wav");
 	sound_fire_3 = Mix_LoadWAV("resources/fire_3.wav");
-	sound_explosion = Mix_LoadWAV("resources/exlosion.wav");
+	sound_explosion = Mix_LoadWAV("resources/explosion.wav");
 
 	font = TTF_OpenFont("resources/IPix.ttf", 28);
 }
@@ -286,7 +286,7 @@ void on_update(float delta) {
 		if (kunkun->get_pos().y >= 720) {
 			kunkun->make_invalid();
 			Mix_PlayChannel(-1, sound_hurt, 0);
-			hp -= 1;
+			// hp -= 1;
 		}
 	}
 

@@ -5,16 +5,18 @@
 #include "camera.h"
 #include "vector2.h"
 
-#include<SDL.h>
+#include <SDL.h>
 
-#include<vector>
-#include<functional>
+#include <vector>
+#include <functional>
+
+#include <iostream>
 
 class Animation {
 public:
 	Animation() {
 		timer.set_one_shot(false);
-		timer.set_on_timeout([&] {
+		timer.set_on_timeout([&]() {
 			idx_frame++;
 			if (idx_frame >= frame_list.size()) {
 				idx_frame = is_loop ? 0 : frame_list.size() - 1;
