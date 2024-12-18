@@ -53,5 +53,8 @@
     <ClInclude Include="kunkun_slow.h">
       <Filter>头文件\kunkun</Filter>
     </ClInclude>
+    <ClInclude Include="prop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
