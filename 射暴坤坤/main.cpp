@@ -286,7 +286,7 @@ void on_update(float delta) {
 		if (kunkun->get_pos().y >= 720) {
 			kunkun->make_invalid();
 			Mix_PlayChannel(-1, sound_hurt, 0);
-			// hp -= 1;
+			hp -= 1;
 		}
 	}
 
