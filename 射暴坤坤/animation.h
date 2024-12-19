@@ -117,7 +117,7 @@ private:
 	};
 
 private:
-	Vector2 pos;
+	Vector2 pos;						// 中心点位置
 	double angle = 0;					// 旋转角度
 	SDL_FPoint center = { 0 };			// 旋转中心
 

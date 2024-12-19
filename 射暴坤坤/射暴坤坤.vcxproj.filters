@@ -16,6 +16,9 @@
     <Filter Include="头文件\kunkun">
       <UniqueIdentifier>{7248a55e-7515-4e74-ad95-a24c6c2891fa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\prop">
+      <UniqueIdentifier>{c1953f0c-7fdb-40df-a063-f7b041bca09c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -54,7 +57,10 @@
       <Filter>头文件\kunkun</Filter>
     </ClInclude>
     <ClInclude Include="prop.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="gift_prop.h">
+      <Filter>头文件\prop</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

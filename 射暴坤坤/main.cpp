@@ -32,6 +32,11 @@ SDL_Texture* tex_battery = nullptr;					// 炮台基座纹理
 SDL_Texture* tex_crosshair = nullptr;				// 光标准星纹理
 SDL_Texture* tex_background = nullptr;				// 背景图纹理
 SDL_Texture* tex_barrel_idle = nullptr;				// 炮管默认状态纹理
+SDL_Texture* tex_gift_prop = nullptr;				// 礼物道具    回复玩家血量
+SDL_Texture* tex_speed_prop = nullptr;				// 加速道具    增加炮台发射子弹速度
+SDL_Texture* tex_star_prop = nullptr;				// 星星道具    增加炮台一次发射子弹数量
+SDL_Texture* tex_stop_prop = nullptr;				// 暂停道具    让坤坤停止不动
+SDL_Texture* tex_random_prop = nullptr;				// 随机道具    随机一种道具效果
 
 Atlas atlas_barrel_fire;							// 炮管开火动画图集
 Atlas atlas_kunkun_fast;							// 快速僵尸坤坤动画图集
@@ -163,6 +168,11 @@ void load_resources() {
 	tex_crosshair = IMG_LoadTexture(renderer, "resources/crosshair.png");
 	tex_background = IMG_LoadTexture(renderer, "resources/background.png");
 	tex_barrel_idle = IMG_LoadTexture(renderer, "resources/barrel_idle.png");
+	tex_gift_prop = IMG_LoadTexture(renderer, "resources/gift.png");
+	tex_speed_prop = IMG_LoadTexture(renderer, "resources/speed.png");
+	tex_star_prop = IMG_LoadTexture(renderer, "resources/star.png");
+	tex_stop_prop = IMG_LoadTexture(renderer, "resources/stop.png");
+	tex_random_prop = IMG_LoadTexture(renderer, "resources/random.png");
 
 	atlas_barrel_fire.load(renderer, "resources/barrel_fire_%d.png", 3);
 	atlas_kunkun_fast.load(renderer, "resources/chicken_fast_%d.png", 4);
@@ -189,6 +199,11 @@ void unload_resources() {
 	SDL_DestroyTexture(tex_crosshair);
 	SDL_DestroyTexture(tex_background);
 	SDL_DestroyTexture(tex_barrel_idle);
+	SDL_DestroyTexture(tex_gift_prop);
+	SDL_DestroyTexture(tex_speed_prop);
+	SDL_DestroyTexture(tex_star_prop);
+	SDL_DestroyTexture(tex_stop_prop);
+	SDL_DestroyTexture(tex_random_prop);
 
 	Mix_FreeMusic(music_bgm);
 	Mix_FreeMusic(music_loss);

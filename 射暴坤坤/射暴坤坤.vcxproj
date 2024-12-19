@@ -138,6 +138,7 @@
     <ClInclude Include="atlas.h" />
     <ClInclude Include="bullet.h" />
     <ClInclude Include="camera.h" />
+    <ClInclude Include="gift_prop.h" />
     <ClInclude Include="kunkun.h" />
     <ClInclude Include="kunkun_fast.h" />
     <ClInclude Include="kunkun_medium.h" />
