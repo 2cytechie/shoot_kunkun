@@ -6,6 +6,8 @@
 #include "camera.h"
 #include "vector2.h"
 
+extern bool is_fire_key_down;
+
 class Prop {
 public:
 	Prop() {
@@ -22,10 +24,10 @@ public:
 			});
 
 		timer_interval.set_one_shot(false);
-		timer_interval.set_wait_time(0.5f);
+		timer_interval.set_wait_time(0.2f);
 		timer_interval.set_on_timeout([&]() {
 			timer_interval.restart();
-			tex_prop = nullptr;
+			is_disappear = !is_disappear;
 			});
 	}
 
@@ -41,27 +43,24 @@ public:
 	}
 
 	bool check_alive() {
+		return is_alive;
+	}
+
+	bool can_remove() {
 		return !is_alive;
 	}
 
 	bool is_pick_up(Vector2 mouse_pos) {
 		if (mouse_pos.x >= rect.x && mouse_pos.x <= rect.x+rect.w
-			&& mouse_pos.y >= rect.y && mouse_pos.y <= rect.y+rect.h) {
+			&& mouse_pos.y >= rect.y && mouse_pos.y <= rect.y+rect.h
+			&& is_fire_key_down) {
 			is_alive = false;
 			return true;
 		}
 		return false;
 	}
 
-	void on_update(float delta) {
-		if (is_idle) {
-			timer_idle.on_update(delta);
-		}
-		else {
-			timer_blink.on_update(delta);
-			timer_interval.on_update(delta);
-		}
-	}
+	virtual  void on_update(float delta) {}
 
 	void on_render(const Camera& camera) {
 		camera.render_texture(tex_prop, nullptr, &rect, 0, nullptr);
@@ -73,9 +72,10 @@ protected:
 	Timer timer_idle;								// 正常状态时间
 	Timer timer_blink;								// 消失前闪烁时间
 	Timer timer_interval;							// 闪烁间隔
+	bool is_idle = true;							// 是否为正常状态
+	bool is_disappear = false;						// 是否消失
 
 private:
-	bool is_idle = true;							// 是否为正常状态
 	bool is_alive = true;							// 是否存活
 
 };

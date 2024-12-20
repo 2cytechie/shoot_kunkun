@@ -3,12 +3,17 @@
 #include "camera.h"
 #include "vector2.h"
 #include "animation.h"
+#include "prop.h"
+#include "gift_prop.h"
 
 #include <SDL_mixer.h>
+#include <vector>
 
 extern Atlas atlas_explosion;
 
 extern Mix_Chunk* sound_explosion;
+
+extern std::vector<Prop*> prop_list;
 
 class KunKun {
 public:
@@ -27,7 +32,12 @@ public:
 		pos.y = -50;
 	}
 
-	~KunKun() = default;
+
+	// 测试
+	~KunKun() {
+		Prop* prop = new GiftProp(pos);
+		prop_list.push_back(prop);
+	}
 
 	const Vector2& get_pos()const {
 		return pos;
@@ -74,5 +84,6 @@ private:
 
 	bool is_alive = true;							// 是否存活
 	bool is_valid = true;							// 是否有效
+
 
 };

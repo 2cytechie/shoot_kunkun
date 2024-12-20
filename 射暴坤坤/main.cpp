@@ -7,6 +7,8 @@
 #include "kunkun_fast.h"
 #include "kunkun_medium.h"
 #include "kunkun_slow.h"
+#include "prop.h"
+#include "gift_prop.h"
 
 #include <SDL.h>
 #include <SDL_ttf.h>
@@ -59,6 +61,7 @@ int hp = 10;										// 玩家生命值
 int score = 0;										// 玩家得分
 std::vector<Bullet> bullet_list;					// 子弹列表
 std::vector<KunKun*> kunkun_list;					// 僵尸坤坤列表
+std::vector<Prop*> prop_list;						// 道具列表
 
 int num_per_gen = 2;								// 每次生成僵尸坤坤的数量
 Timer timer_generate;								// 僵尸坤坤生成定时器
@@ -273,6 +276,14 @@ void on_update(float delta) {
 		bullet.on_update(delta);
 	}
 
+	// 更新道具列表
+	for (Prop* prop : prop_list) {
+		prop->on_update(delta);
+		if (prop->is_pick_up(pos_crosshair)) {
+			hp += 1;
+		}
+	}
+
 	// 更新僵尸坤坤对子弹碰撞的处理
 	for (KunKun* kunkun : kunkun_list) {
 		kunkun->on_update(delta);
@@ -322,6 +333,16 @@ void on_update(float delta) {
 			return can_remove;
 		}),
 		kunkun_list.end());
+
+	// 移除无效道具
+	prop_list.erase(std::remove_if(
+		prop_list.begin(), prop_list.end(),
+		[](Prop* prop) {
+			bool can_remove = prop->can_remove();
+			if (can_remove) delete prop;
+			return can_remove;
+		}),
+		prop_list.end());
 
 	// 对场景中的僵尸坤坤按竖直坐标位置排序
 	std::sort(kunkun_list.begin(), kunkun_list.end(),
@@ -391,6 +412,11 @@ void on_render(const Camera& camera) {
 	// 绘制子弹
 	for (const Bullet& bullet : bullet_list) {
 		bullet.on_render(camera);
+	}
+
+	// 绘制道具
+	for (Prop* prop : prop_list) {
+		prop->on_render(camera);
 	}
 
 	// 绘制炮台
