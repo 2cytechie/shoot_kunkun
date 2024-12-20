@@ -60,7 +60,7 @@ public:
 		return false;
 	}
 
-	virtual  void on_update(float delta) {}
+	virtual void on_update(float delta) {}
 
 	void on_render(const Camera& camera) {
 		camera.render_texture(tex_prop, nullptr, &rect, 0, nullptr);
