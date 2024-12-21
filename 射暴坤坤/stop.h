@@ -2,14 +2,14 @@
 
 #include "prop.h"
 
-extern SDL_Texture* tex_gift_prop;
+extern SDL_Texture* tex_stop_prop;
 
-class GiftProp :public Prop {
+class StopProp : public Prop {
 public:
-	GiftProp(Vector2 pos) {
-		tex_prop = tex_gift_prop;
-		state_prop = StateProp::gift;
-		timer_using.set_wait_time(0.01f);
+	StopProp(Vector2 pos) {
+		tex_prop = tex_stop_prop;
+		state_prop = StateProp::stop;
+		timer_using.set_wait_time(10.0f);
 
 		int width, height;
 		SDL_QueryTexture(tex_prop, nullptr, nullptr, &width, &height);
@@ -17,6 +17,6 @@ public:
 		rect.w = width, rect.h = height;
 	}
 
-	~GiftProp() = default;
+	~StopProp() = default;
 
 };

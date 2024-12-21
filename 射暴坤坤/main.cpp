@@ -1,4 +1,5 @@
 #define SDL_MAIN_HANDLED
+#include <iostream>
 
 #include "atlas.h"
 #include "camera.h"
@@ -9,6 +10,10 @@
 #include "kunkun_slow.h"
 #include "prop.h"
 #include "gift_prop.h"
+#include "speed_prop.h"
+#include "random_prop.h"
+#include "star_prop.h"
+#include "stop.h"
 
 #include <SDL.h>
 #include <SDL_ttf.h>
@@ -77,6 +82,8 @@ bool is_cool_down = true;							// 是否冷却结束
 bool is_fire_key_down = false;						// 开火键是否按下
 Animation animation_barrel_fire;					// 炮管开火动画
 
+float fire_cd = 0.04f;								// 开火冷却
+
 const int FPS = 144;								// 游戏帧率
 
 
@@ -138,7 +145,7 @@ void init() {
 		});
 
 	animation_barrel_fire.set_loop(false);
-	animation_barrel_fire.set_interval(0.04f);
+	animation_barrel_fire.set_interval(fire_cd);
 	animation_barrel_fire.set_center(center_barrel);
 	animation_barrel_fire.add_frame(&atlas_barrel_fire);
 	animation_barrel_fire.set_on_finished([&]() {
@@ -279,8 +286,30 @@ void on_update(float delta) {
 	// 更新道具列表
 	for (Prop* prop : prop_list) {
 		prop->on_update(delta);
-		if (prop->is_pick_up(pos_crosshair)) {
-			hp += 1;
+		if (prop->chack_pick_up(pos_crosshair)) {
+			switch (prop->get_state_prop()) {
+			case Prop::StateProp::random:
+
+				std::cout << "随机道具" << std::endl;
+				break;
+			case Prop::StateProp::gift:
+				hp += 1;
+				std::cout << "回血" << std::endl;
+				break;
+			case Prop::StateProp::speed:
+				fire_cd = fire_cd / 2;
+				animation_barrel_fire.set_interval(fire_cd);
+				std::cout << "射速加快" << std::endl;
+				break;
+			case Prop::StateProp::star:
+
+				std::cout << "发射子弹增多"<<std::endl;
+				break;
+			case Prop::StateProp::stop:
+
+				std::cout << "僵尸坤坤静止"<<std::endl;
+				break;
+			}
 		}
 	}
 

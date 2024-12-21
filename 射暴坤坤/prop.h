@@ -10,6 +10,15 @@ extern bool is_fire_key_down;
 
 class Prop {
 public:
+	enum class StateProp{
+		random,
+		gift,
+		speed,
+		star,
+		stop
+	};
+
+public:
 	Prop() {
 		timer_idle.set_one_shot(true);
 		timer_idle.set_wait_time(10.0f);
@@ -28,6 +37,11 @@ public:
 		timer_interval.set_on_timeout([&]() {
 			timer_interval.restart();
 			is_disappear = !is_disappear;
+			});
+
+		timer_using.set_one_shot(true);
+		timer_using.set_on_timeout([&] {
+			is_alive = false;
 			});
 	}
 
@@ -50,20 +64,38 @@ public:
 		return !is_alive;
 	}
 
-	bool is_pick_up(Vector2 mouse_pos) {
-		if (mouse_pos.x >= rect.x && mouse_pos.x <= rect.x+rect.w
-			&& mouse_pos.y >= rect.y && mouse_pos.y <= rect.y+rect.h
-			&& is_fire_key_down) {
-			is_alive = false;
-			return true;
+	StateProp get_state_prop() {
+		return state_prop;
+	}
+
+	bool chack_pick_up(Vector2 mouse_pos) {
+		if (!is_pick_up) {
+			if (mouse_pos.x >= rect.x && mouse_pos.x <= rect.x + rect.w
+				&& mouse_pos.y >= rect.y && mouse_pos.y <= rect.y + rect.h
+				&& is_fire_key_down) {
+				is_pick_up = true;
+				is_disappear = true;
+				return true;
+			}
 		}
 		return false;
 	}
 
-	virtual void on_update(float delta) {}
+	void on_update(float delta) {
+		if (is_idle) {
+			timer_idle.on_update(delta);
+		}
+		else {
+			timer_blink.on_update(delta);
+			if (!is_pick_up) timer_interval.on_update(delta);
+			else timer_using.on_update(delta);
+		}
+	}
 
 	void on_render(const Camera& camera) {
-		camera.render_texture(tex_prop, nullptr, &rect, 0, nullptr);
+		if (!is_disappear) {
+			camera.render_texture(tex_prop, nullptr, &rect, 0, nullptr);
+		}
 	}
 
 protected:
@@ -72,10 +104,13 @@ protected:
 	Timer timer_idle;								// 正常状态时间
 	Timer timer_blink;								// 消失前闪烁时间
 	Timer timer_interval;							// 闪烁间隔
-	bool is_idle = true;							// 是否为正常状态
-	bool is_disappear = false;						// 是否消失
+	Timer timer_using;								// 道具正在使用时长
+	StateProp state_prop = StateProp::gift;			// 初始化物品为gift
 
 private:
 	bool is_alive = true;							// 是否存活
+	bool is_idle = true;							// 是否为正常状态
+	bool is_pick_up = false;						// 是否捡起
+	bool is_disappear = false;						// 是否消失
 
 };

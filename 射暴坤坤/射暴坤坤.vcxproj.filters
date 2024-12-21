@@ -62,5 +62,17 @@
     <ClInclude Include="gift_prop.h">
       <Filter>头文件\prop</Filter>
     </ClInclude>
+    <ClInclude Include="random_prop.h">
+      <Filter>头文件\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="speed_prop.h">
+      <Filter>头文件\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="star_prop.h">
+      <Filter>头文件\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="stop.h">
+      <Filter>头文件\prop</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

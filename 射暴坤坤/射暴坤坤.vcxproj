@@ -144,6 +144,10 @@
     <ClInclude Include="kunkun_medium.h" />
     <ClInclude Include="kunkun_slow.h" />
     <ClInclude Include="prop.h" />
+    <ClInclude Include="random_prop.h" />
+    <ClInclude Include="speed_prop.h" />
+    <ClInclude Include="star_prop.h" />
+    <ClInclude Include="stop.h" />
     <ClInclude Include="timer.h" />
     <ClInclude Include="vector2.h" />
   </ItemGroup>

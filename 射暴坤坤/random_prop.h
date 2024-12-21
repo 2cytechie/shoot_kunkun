@@ -2,14 +2,14 @@
 
 #include "prop.h"
 
-extern SDL_Texture* tex_gift_prop;
+extern SDL_Texture* tex_random_prop;
 
-class GiftProp :public Prop {
+class RandomProp : public Prop {
 public:
-	GiftProp(Vector2 pos) {
+	RandomProp(Vector2 pos) {
 		tex_prop = tex_gift_prop;
-		state_prop = StateProp::gift;
-		timer_using.set_wait_time(0.01f);
+		state_prop = StateProp::random;
+		timer_using.set_wait_time(10.0f);
 
 		int width, height;
 		SDL_QueryTexture(tex_prop, nullptr, nullptr, &width, &height);
@@ -17,6 +17,6 @@ public:
 		rect.w = width, rect.h = height;
 	}
 
-	~GiftProp() = default;
+	~RandomProp() = default;
 
 };

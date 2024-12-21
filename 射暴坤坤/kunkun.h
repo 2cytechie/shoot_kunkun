@@ -5,6 +5,10 @@
 #include "animation.h"
 #include "prop.h"
 #include "gift_prop.h"
+#include "random_prop.h"
+#include "speed_prop.h"
+#include "star_prop.h"
+#include "stop.h"
 
 #include <SDL_mixer.h>
 #include <vector>
@@ -33,10 +37,18 @@ public:
 	}
 
 
-	// ≤‚ ‘
+	// Ω© ¨¿§¿§À¿Õˆ∫Û∏≈¬ µÙ¬‰ŒÔ∆∑
 	~KunKun() {
-		Prop* prop = new GiftProp(pos);
-		prop_list.push_back(prop);
+		int val = rand() % 1000;
+		if (val < 60) {
+			Prop* prop = nullptr;
+			if (val < 5) prop = new RandomProp(pos);
+			else if (val < 10) prop = new GiftProp(pos);
+			else if (val < 30) prop = new SpeedProp(pos);
+			else if (val < 50) prop = new StarProp(pos);
+			else prop = new StopProp(pos);
+			prop_list.push_back(prop);
+		}
 	}
 
 	const Vector2& get_pos()const {
