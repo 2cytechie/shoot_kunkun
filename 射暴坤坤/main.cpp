@@ -13,7 +13,7 @@
 #include "speed_prop.h"
 #include "random_prop.h"
 #include "star_prop.h"
-#include "stop.h"
+#include "stop_prop.h"
 
 #include <SDL.h>
 #include <SDL_ttf.h>
@@ -78,11 +78,12 @@ const Vector2 pos_battery = { 640,600 };			// 炮台基座中心位置
 const Vector2 pos_barrel = { 592,585 };				// 炮管无旋转默认位置
 const SDL_FPoint center_barrel = { 48,25 };			// 炮管旋转中心点坐标
 
+int fire_bullets = 1;								// 同时发射子弹数目
 bool is_cool_down = true;							// 是否冷却结束
 bool is_fire_key_down = false;						// 开火键是否按下
 Animation animation_barrel_fire;					// 炮管开火动画
 
-float fire_cd = 0.04f;								// 开火冷却
+float fire_cd = 0.16f;								// 开火冷却
 
 const int FPS = 144;								// 游戏帧率
 
@@ -288,26 +289,20 @@ void on_update(float delta) {
 		prop->on_update(delta);
 		if (prop->chack_pick_up(pos_crosshair)) {
 			switch (prop->get_state_prop()) {
-			case Prop::StateProp::random:
-
-				std::cout << "随机道具" << std::endl;
-				break;
 			case Prop::StateProp::gift:
 				hp += 1;
-				std::cout << "回血" << std::endl;
 				break;
 			case Prop::StateProp::speed:
-				fire_cd = fire_cd / 2;
+				fire_cd /= 2;
 				animation_barrel_fire.set_interval(fire_cd);
-				std::cout << "射速加快" << std::endl;
 				break;
 			case Prop::StateProp::star:
-
-				std::cout << "发射子弹增多"<<std::endl;
+				fire_bullets *= 2;
 				break;
 			case Prop::StateProp::stop:
-
-				std::cout << "僵尸坤坤静止"<<std::endl;
+				for (KunKun* kunkun : kunkun_list) {
+					kunkun->set_speed_run(0.0f);
+				}
 				break;
 			}
 		}
@@ -368,7 +363,36 @@ void on_update(float delta) {
 		prop_list.begin(), prop_list.end(),
 		[](Prop* prop) {
 			bool can_remove = prop->can_remove();
-			if (can_remove) delete prop;
+			bool is_pick_up = prop->get_pick_up();
+			if (can_remove) {
+				if (is_pick_up) {
+					switch (prop->get_state_prop()) {
+					case Prop::StateProp::speed:
+						fire_cd *= 2;
+						animation_barrel_fire.set_interval(fire_cd);
+						break;
+					case Prop::StateProp::star:
+						fire_bullets /= 2;
+						break;
+					case Prop::StateProp::stop:
+						for (KunKun* kunkun : kunkun_list) {
+							switch (kunkun->get_state_kunkun()) {
+							case KunKun::StateKunKun::fast:
+								kunkun->set_speed_run(80.0f);
+								break;
+							case KunKun::StateKunKun::medium:
+								kunkun->set_speed_run(50.0f);
+								break;
+							case KunKun::StateKunKun::slow:
+								kunkun->set_speed_run(30.0f);
+								break;
+							}
+						}
+						break;
+					}
+				}
+				delete prop;
+			}
 			return can_remove;
 		}),
 		prop_list.end());
@@ -392,13 +416,28 @@ void on_update(float delta) {
 
 		static const float length_barrel = 105;							// 炮管长度
 		static const Vector2 pos_barrel_center = { 640,610 };			// 炮管锚点中心位置
+		static const float bullet_space = 20;							// 子弹间距
 
-		bullet_list.emplace_back(angle_barrel);							// 构造新的子弹对象
-		Bullet& bullet = bullet_list.back();
-		double angle_bullet = angle_barrel + (rand() % 30 - 15);		// 在30°范围随机偏移
-		double radians = angle_bullet * 3.14159265 / 180;
-		Vector2 direction = { (float)std::cos(radians),(float)sin(radians) };
-		bullet.set_pos(pos_barrel_center + direction * length_barrel);
+		// double angle_bullet = angle_barrel + (rand() % 30 - 15);  // 在30°范围随机偏移
+		double radians = angle_barrel * 3.14159265 / 180;
+		Vector2 direction = { (float)std::cos(radians), (float)std::sin(radians) };
+		if (fire_bullets <= 1) {
+			// ?????????????????????        子弹数目会变成0
+			fire_bullets = 1;
+			bullet_list.emplace_back(angle_barrel);  // 构造新的子弹对象
+			bullet_list.back().set_pos(pos_barrel_center + direction * length_barrel);
+		}
+		else {
+			Vector2 n = Vector2((float)std::sin(radians), -(float)std::cos(radians)).normalize();
+			for (int i = 1; i <= fire_bullets / 2; i++) {
+				Bullet bullet_left(angle_barrel);
+				Bullet bullet_right(angle_barrel);
+				bullet_left.set_pos(pos_barrel_center + direction * length_barrel - n * bullet_space * i);
+				bullet_right.set_pos(pos_barrel_center + direction * length_barrel + n * bullet_space * i);
+				bullet_list.push_back(bullet_left);
+				bullet_list.push_back(bullet_right);
+			}
+		}
 
 		switch (rand() % 3) {
 		case 0: Mix_PlayChannel(-1, sound_fire_1, 0); break;

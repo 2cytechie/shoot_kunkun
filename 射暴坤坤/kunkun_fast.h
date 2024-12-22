@@ -7,6 +7,8 @@ extern Atlas atlas_kunkun_fast;
 class KunKunFast :public KunKun {
 public:
 	KunKunFast() {
+		state_kunkun = StateKunKun::fast;
+
 		animation_run.add_frame(&atlas_kunkun_fast);
 
 		speed_run = 80.0f;

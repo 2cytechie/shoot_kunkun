@@ -71,7 +71,7 @@
     <ClInclude Include="star_prop.h">
       <Filter>头文件\prop</Filter>
     </ClInclude>
-    <ClInclude Include="stop.h">
+    <ClInclude Include="stop_prop.h">
       <Filter>头文件\prop</Filter>
     </ClInclude>
   </ItemGroup>

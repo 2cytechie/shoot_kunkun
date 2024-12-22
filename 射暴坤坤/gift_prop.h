@@ -9,7 +9,7 @@ public:
 	GiftProp(Vector2 pos) {
 		tex_prop = tex_gift_prop;
 		state_prop = StateProp::gift;
-		timer_using.set_wait_time(0.01f);
+		timer_using.set_wait_time(0.001f);
 
 		int width, height;
 		SDL_QueryTexture(tex_prop, nullptr, nullptr, &width, &height);

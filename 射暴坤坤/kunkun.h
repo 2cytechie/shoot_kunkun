@@ -8,7 +8,7 @@
 #include "random_prop.h"
 #include "speed_prop.h"
 #include "star_prop.h"
-#include "stop.h"
+#include "stop_prop.h"
 
 #include <SDL_mixer.h>
 #include <vector>
@@ -20,6 +20,13 @@ extern Mix_Chunk* sound_explosion;
 extern std::vector<Prop*> prop_list;
 
 class KunKun {
+public:
+	enum class StateKunKun {
+		fast,
+		medium,
+		slow
+	};
+
 public:
 	KunKun() {
 		animation_run.set_loop(true);
@@ -40,12 +47,12 @@ public:
 	// 僵尸坤坤死亡后概率掉落物品
 	~KunKun() {
 		int val = rand() % 1000;
-		if (val < 60) {
+		if (val < 26) {
 			Prop* prop = nullptr;
 			if (val < 5) prop = new RandomProp(pos);
 			else if (val < 10) prop = new GiftProp(pos);
-			else if (val < 30) prop = new SpeedProp(pos);
-			else if (val < 50) prop = new StarProp(pos);
+			else if (val < 20) prop = new SpeedProp(pos);
+			else if (val < 21) prop = new StarProp(pos);
 			else prop = new StopProp(pos);
 			prop_list.push_back(prop);
 		}
@@ -85,7 +92,16 @@ public:
 		return !is_valid;
 	}
 
+	void set_speed_run(float speed_run) {
+		this->speed_run = speed_run;
+	}
+
+	StateKunKun get_state_kunkun() {
+		return state_kunkun;
+	}
+
 protected:
+	StateKunKun state_kunkun = StateKunKun::fast;	// 初始化坤坤类型为fast
 	float speed_run = 10.0f;						// 奔跑速度
 	Animation animation_run;						// 奔跑动画
 

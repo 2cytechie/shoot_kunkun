@@ -11,7 +11,6 @@ extern bool is_fire_key_down;
 class Prop {
 public:
 	enum class StateProp{
-		random,
 		gift,
 		speed,
 		star,
@@ -66,6 +65,10 @@ public:
 
 	StateProp get_state_prop() {
 		return state_prop;
+	}
+
+	bool get_pick_up() {
+		return is_pick_up;
 	}
 
 	bool chack_pick_up(Vector2 mouse_pos) {

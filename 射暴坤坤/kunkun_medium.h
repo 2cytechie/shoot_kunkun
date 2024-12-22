@@ -7,6 +7,8 @@ extern Atlas atlas_kunkun_medium;
 class KunKunMedium :public KunKun {
 public:
 	KunKunMedium() {
+		state_kunkun = StateKunKun::medium;
+
 		animation_run.add_frame(&atlas_kunkun_medium);
 
 		speed_run = 50.0f;

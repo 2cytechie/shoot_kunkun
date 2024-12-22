@@ -9,7 +9,7 @@ public:
 	StopProp(Vector2 pos) {
 		tex_prop = tex_stop_prop;
 		state_prop = StateProp::stop;
-		timer_using.set_wait_time(10.0f);
+		timer_using.set_wait_time(3.0f);
 
 		int width, height;
 		SDL_QueryTexture(tex_prop, nullptr, nullptr, &width, &height);
