@@ -83,7 +83,7 @@ bool is_cool_down = true;							// 是否冷却结束
 bool is_fire_key_down = false;						// 开火键是否按下
 Animation animation_barrel_fire;					// 炮管开火动画
 
-float fire_cd = 0.16f;								// 开火冷却
+float fire_cd = 0.08f;								// 开火冷却
 
 const int FPS = 144;								// 游戏帧率
 

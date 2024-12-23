@@ -88,10 +88,12 @@ public:
 		if (is_idle) {
 			timer_idle.on_update(delta);
 		}
+		else if (is_pick_up) {
+			timer_using.on_update(delta);
+		}
 		else {
 			timer_blink.on_update(delta);
-			if (!is_pick_up) timer_interval.on_update(delta);
-			else timer_using.on_update(delta);
+			timer_interval.on_update(delta);
 		}
 	}
 

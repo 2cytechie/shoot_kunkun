@@ -9,7 +9,7 @@ public:
 	SpeedProp(Vector2 pos) {
 		tex_prop = tex_speed_prop;
 		state_prop = StateProp::speed;
-		timer_using.set_wait_time(2.5f);
+		timer_using.set_wait_time(5.0f);
 
 		int width, height;
 		SDL_QueryTexture(tex_prop, nullptr, nullptr, &width, &height);

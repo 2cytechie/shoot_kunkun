@@ -47,12 +47,12 @@ public:
 	// 僵尸坤坤死亡后概率掉落物品
 	~KunKun() {
 		int val = rand() % 1000;
-		if (val < 26) {
+		if (val < 30) {
 			Prop* prop = nullptr;
 			if (val < 5) prop = new RandomProp(pos);
 			else if (val < 10) prop = new GiftProp(pos);
 			else if (val < 20) prop = new SpeedProp(pos);
-			else if (val < 21) prop = new StarProp(pos);
+			else if (val < 25) prop = new StarProp(pos);
 			else prop = new StopProp(pos);
 			prop_list.push_back(prop);
 		}

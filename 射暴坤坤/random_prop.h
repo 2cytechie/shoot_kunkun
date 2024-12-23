@@ -15,11 +15,11 @@ public:
 		}
 		else if (val < 5) {
 			state_prop = StateProp::speed;
-			timer_using.set_wait_time(2.5f);
+			timer_using.set_wait_time(5.0f);
 		}
 		else if(val < 8) {
 			state_prop = StateProp::star;
-			timer_using.set_wait_time(1.5f);
+			timer_using.set_wait_time(2.5f);
 		}
 		else {
 			state_prop = StateProp::stop;
