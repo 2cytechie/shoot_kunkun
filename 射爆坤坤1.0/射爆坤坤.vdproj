@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:射爆坤坤1.0"
+"ProjectName" = "8:射爆坤坤1.1"
 "LanguageId" = "3:2052"
 "CodePage" = "3:936"
 "UILanguageId" = "3:2052"
@@ -33,19 +33,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0360B2F3846B4CDF9C9EC7AAEB5984DD"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_03FA31BC93ED40F29B07262184BF381A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0547A42B7EA14BEB9818AA2F8BCD6293"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -70,19 +58,7 @@
         "Entry"
         {
         "MsmKey" = "8:_0941C849E785EEF3E0DA09BBD3A19559"
-        "OwnerKey" = "8:_AC390A7F0B69440E8237DC94AA1FE085"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0BE1A7B5CF304606B06CF557C1A26499"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0BF00D1C1F654C0296F96CFA5D33D45B"
-        "OwnerKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8C20A680D6DB4030BF3527C7ADC1C402"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -117,18 +93,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_14FEE84553384DCDB33FC068C0FD4536"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_16759C1BE8A64E7BBB23EE922985A87D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1764BE197ED4440AACC90D07D0DF878E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -153,6 +117,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_1D00E3849CC446609527CE9A56F6153E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_1D27D55E264049768A43D3285ED66526"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -171,18 +141,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2298F1F4F4894FA784B6D36E6D8B7591"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_23ABF057739A4388953E8D2AFB79B335"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_267628BD58D24967BBD2D0E7C1D41D60"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -195,7 +153,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_277110347F8B4007A6E37F54A706C868"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_27E6B45538D34F7FAD45D5BE539B7145"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_288391D9C2304F83961C9E004A8EAEFE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -219,20 +189,32 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_30AC362FD2304193989F06AF181EF4C0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3441D6C45683460398C2B889334618EF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_34E6FAF06BCB4BBE9B99989B158606EB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3520AE44D89A4158AA94F4E84659803F"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_35DDE723FA07DD55727D4BADEA735E99"
+        "OwnerKey" = "8:_8C20A680D6DB4030BF3527C7ADC1C402"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_35DDE723FA07DD55727D4BADEA735E99"
-        "OwnerKey" = "8:_AC390A7F0B69440E8237DC94AA1FE085"
+        "MsmKey" = "8:_373619B601B84190BEB9B893BFBED2F0"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -255,13 +237,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_39238EC8A8F14328AC3A4878354AEE0E"
+        "MsmKey" = "8:_393C4C2C7E9F4967AB821D84E40CADA3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_393C4C2C7E9F4967AB821D84E40CADA3"
+        "MsmKey" = "8:_394DABE64FB14832A77297A0525EACF7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -285,13 +267,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_3E09D46850A0463DA044624709BD51E2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3F2808F539144EB1BBE5715D293845DB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3F2C4F67310243D8BDE7ED90610FACF1"
+        "MsmKey" = "8:_4047A6E97FF44F55957672B0408E07A5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -303,8 +291,14 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_441C5D63AB804C44998C65CB09A030C8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4421EBF54D905C03C633581160613966"
-        "OwnerKey" = "8:_AC390A7F0B69440E8237DC94AA1FE085"
+        "OwnerKey" = "8:_8C20A680D6DB4030BF3527C7ADC1C402"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -327,13 +321,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_4940CF996F9D46A49F96D6F7154965EB"
+        "MsmKey" = "8:_49D1AAFF59814A8181EA861A20A92008"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_49D9A548AA7C43F9BB07A581820C5898"
+        "MsmKey" = "8:_4B9BD4B532D64740AD82603AAA8E5B5A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -351,7 +345,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_4D0872F67A974139A17EFC981A197777"
+        "MsmKey" = "8:_4E520953AB2D43EB9A3C34880EA517C7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -370,6 +364,12 @@
         "Entry"
         {
         "MsmKey" = "8:_5020FE6A8E124988A5B5E1D91B7B8A09"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_52582FE558EE4B6CBF8CC387DFE2717A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -394,6 +394,12 @@
         "Entry"
         {
         "MsmKey" = "8:_57E87B597AD64A0B81992E050244C724"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_58B367A7292E409C95042B40E10EBCC8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -435,25 +441,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5F510A4D75B24E6EB3F3534C154F7556"
+        "MsmKey" = "8:_5F8F3F7C02F8417A835A80509D04E0C1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5FCB8928471E48C0AB937CBEC2023A39"
+        "MsmKey" = "8:_5F9A9E5C6F9D4113A3B0D06077654C7E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_613449E8A5564505B9AA247400644A1C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_61FBDBA56C7D456F8730CDD247DA3299"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -477,19 +477,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6A279BBA14C342DF9A3D3C877736EB86"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6A8883F420D541E1B49249E016B8E044"
+        "MsmKey" = "8:_6AFD2934546C4D5297D2DC4129BF0CD4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_6BF62D0DD7734CABAF7579D8B0BF2D41"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6CA2BBB14B914A70A61F10A74D0B1284"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -507,13 +507,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_71DD4E970FF74152B58023248C7CB567"
+        "MsmKey" = "8:_73D5BC8DD1BD435DBCEB9A3885C42677"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_73D5BC8DD1BD435DBCEB9A3885C42677"
+        "MsmKey" = "8:_74078453B89D473987314797E2A1E5B6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -537,18 +537,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_788BA1B22B0F4C98A1D2317C2CA68608"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_78F4280129884CE7816BE0076D4247D8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_790A0AF5CDBF45C8B7FE51CBF63293F7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -562,12 +550,6 @@
         "Entry"
         {
         "MsmKey" = "8:_7A7DD250C785443C95743464E33CBE6F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7AB17B620B3D4C538B4FBF46C9654CB6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -597,6 +579,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_7DE3A65477A14AA98578B35F782138E9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_7F9C67B8CF7244D39D87E8478B225AB3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -609,13 +597,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_828D1C2F3A654A19B3B5C35602C58F43"
+        "MsmKey" = "8:_81691E2BF84E4CD680A7A6C89E867BED"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8306785B8E434670ADF583C6004FCBDE"
+        "MsmKey" = "8:_828D1C2F3A654A19B3B5C35602C58F43"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -627,13 +615,31 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8AD511A0061F4A1BA908B602A9A57DE5"
+        "MsmKey" = "8:_8C20A680D6DB4030BF3527C7ADC1C402"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_8C9D7675B9CC481CBD3B5F5E8FCB4127"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8D91D9A8E9D447528463BB63A0C3A883"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8E2121A7868A45618C037ECF4C586D29"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8EE700645BD247E982519388BBAE2FCB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -646,6 +652,12 @@
         "Entry"
         {
         "MsmKey" = "8:_9003C99FF69F4CE9B50E14AA5F64EDE4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_92439DA897BF4E9D832442BBC1813464"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -705,25 +717,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9AB95184CC7A488E9C49B279C6BD1ED4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_9B3CA6E0703647D883C5EFA9E4F3D87D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9D2AC4C470124942BF711A55051BBC2B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9F2417809940453CA440FEA1E44443D4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -735,13 +729,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A52CA5C4145D41F78BF1271AC6D491EF"
+        "MsmKey" = "8:_A20DBF3B242D4B2A952A044405A02A7C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A545E5741C2A4159AD2A2C49DB685916"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A76D843CC2474DDF956DDB42E46C05C7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -754,7 +754,13 @@
         "Entry"
         {
         "MsmKey" = "8:_A7BC3179A1BD8FDDB852FDA9DCC5A2CC"
-        "OwnerKey" = "8:_AC390A7F0B69440E8237DC94AA1FE085"
+        "OwnerKey" = "8:_8C20A680D6DB4030BF3527C7ADC1C402"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A7CB9F350C6D4E57B1E2212C8A6BA4E1"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -783,7 +789,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AC390A7F0B69440E8237DC94AA1FE085"
+        "MsmKey" = "8:_AD873E83135A495C8BC083332918212A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -825,19 +831,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B21D08D5429B4353950E9162033F386D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B2B5081784474CF082BA7E05523E3432"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_B3FA00C3AF134567B20370B673DC7E19"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B4587BF33796431E8D08663AC66E552B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -849,13 +849,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B51AC624C1DB4D41818CC05CCA265FC2"
+        "MsmKey" = "8:_B5F27BD75D1340F4972C8E1C8942ABC0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B5F27BD75D1340F4972C8E1C8942ABC0"
+        "MsmKey" = "8:_B69231606B3849E09B8BD3C04B29F9AC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -880,12 +880,6 @@
         "Entry"
         {
         "MsmKey" = "8:_BA05CD6BA5BF4E8DB18E851D74647961"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BA3231EBCB7D43B2AFBA7C8F689E9AE9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -927,6 +921,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_BE7E9D15841C4C88AA0AB97829C3AB4A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BED1E9B37AFB4F54A8081421BB2D83A6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BEEDD2FFE51544AE809C952CED2AA1E7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_C047BF0B6E9B4FFFAE1415010656F0D6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -945,6 +957,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_C6A738546C8044FBBBB7AFDE670BE87B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_C83C2A880D2C42F1863611362D8EDC6A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -952,12 +970,6 @@
         "Entry"
         {
         "MsmKey" = "8:_C94AD3CDBD5E4C6EAA55CA1F786A5E5C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CA89549CC85A46E588005F5B8A522844"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -981,18 +993,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CE9DFE50DC4947CC87918FE49DF3A22A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CF63B9846F044EE3B80C37787944FE66"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D06C3F0C4B3347ABA53608EABB53EBF3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1000,6 +1000,12 @@
         "Entry"
         {
         "MsmKey" = "8:_D0E62702181849708ADBA50FCE421122"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D3F684BC57DC4DA2B6595946655B8D8A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1023,13 +1029,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DA21C0D98B6946D896F75F1003B513CA"
+        "MsmKey" = "8:_DB2EA6AA5E6C4B88AF5290AF865C456B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_DBE93559E08F44CF93CB97DDB7D1D50C"
+        "MsmKey" = "8:_DB57C88A35F4483089B9316C4F8D66B4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1042,12 +1048,6 @@
         "Entry"
         {
         "MsmKey" = "8:_DC7AF8B4B8124908B6724407C45390A8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DC84D5E7E16C487587884ED981D88D39"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1083,6 +1083,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E691C5E0EB1F4EE88845B5733D5DD047"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E7406B2216F4411B8588A4A6359924C6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1096,6 +1102,12 @@
         "Entry"
         {
         "MsmKey" = "8:_E9AABB45476344F9BE89D1D6685F5244"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E9D957FC151B44C084BC18945AC7EF09"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1125,7 +1137,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F1FDBD6660714744AA2287ADCC014133"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F265E9583FBA4004AFC0E1628FDA46F6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F44E7B4001AA44029D17F0084969F4DE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1149,19 +1173,25 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F93A8A2B0F1343C89AE2DF10E571D35F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_FA7BA502AD0E4E4A8891CD332AAFA1E2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_FBB851EEC25E4D7A8360CDCDD7705C34"
+        "MsmKey" = "8:_FB86A3B3BADF4C19BA2A68928B9AEC13"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_FD2E314D445541EA8C7ADE90A51E01ED"
+        "MsmKey" = "8:_FBB851EEC25E4D7A8360CDCDD7705C34"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1183,6 +1213,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -1199,6 +1237,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -1280,52 +1326,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0360B2F3846B4CDF9C9EC7AAEB5984DD"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_6.png"
-            "TargetName" = "8:chicken_slow_6.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03FA31BC93ED40F29B07262184BF381A"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_mixer\\lib\\x64\\optional\\libxmp.dll"
             "TargetName" = "8:libxmp.dll"
             "Tag" = "8:"
             "Folder" = "8:_1642BFC615B64C8FB3E7278BB76BDD84"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0547A42B7EA14BEB9818AA2F8BCD6293"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\fire_2.wav"
-            "TargetName" = "8:fire_2.wav"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1418,46 +1424,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BE1A7B5CF304606B06CF557C1A26499"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\fire_3.wav"
-            "TargetName" = "8:fire_3.wav"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0BF00D1C1F654C0296F96CFA5D33D45B"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\heart.png"
-            "TargetName" = "8:heart.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E9FA87D098745D18313BA92AF37FC83"
@@ -1560,46 +1526,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14FEE84553384DCDB33FC068C0FD4536"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_1.png"
-            "TargetName" = "8:chicken_fast_1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_16759C1BE8A64E7BBB23EE922985A87D"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_3.png"
-            "TargetName" = "8:chicken_slow_3.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1764BE197ED4440AACC90D07D0DF878E"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_mixer\\lib\\x64\\optional\\LICENSE.wavpack.txt"
@@ -1680,6 +1606,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1D00E3849CC446609527CE9A56F6153E"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_4.png"
+            "TargetName" = "8:chicken_slow_4.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1D27D55E264049768A43D3285ED66526"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_mixer\\lib\\x64\\optional\\LICENSE.opus.txt"
@@ -1740,46 +1686,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2298F1F4F4894FA784B6D36E6D8B7591"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_4.png"
-            "TargetName" = "8:explosion_4.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_23ABF057739A4388953E8D2AFB79B335"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_4.png"
-            "TargetName" = "8:chicken_medium_4.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_267628BD58D24967BBD2D0E7C1D41D60"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_mixer\\lib\\x64\\optional\\libopus-0.dll"
@@ -1820,12 +1726,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_277110347F8B4007A6E37F54A706C868"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_2.png"
+            "TargetName" = "8:chicken_slow_2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_27E6B45538D34F7FAD45D5BE539B7145"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_rect.h"
             "TargetName" = "8:SDL_rect.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_288391D9C2304F83961C9E004A8EAEFE"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_idle.png"
+            "TargetName" = "8:barrel_idle.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1900,12 +1846,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_34E6FAF06BCB4BBE9B99989B158606EB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_30AC362FD2304193989F06AF181EF4C0"
             {
-            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_guid.h"
-            "TargetName" = "8:SDL_guid.h"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\fire_1.wav"
+            "TargetName" = "8:fire_1.wav"
             "Tag" = "8:"
-            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1920,12 +1866,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3520AE44D89A4158AA94F4E84659803F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3441D6C45683460398C2B889334618EF"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\IPix.ttf"
-            "TargetName" = "8:IPix.ttf"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_5.png"
+            "TargetName" = "8:explosion_5.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_34E6FAF06BCB4BBE9B99989B158606EB"
+            {
+            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_guid.h"
+            "TargetName" = "8:SDL_guid.h"
+            "Tag" = "8:"
+            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1958,6 +1924,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_373619B601B84190BEB9B893BFBED2F0"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_4.png"
+            "TargetName" = "8:chicken_fast_4.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3832EC44F7D94425A829B92B62EE4918"
@@ -2020,12 +2006,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_39238EC8A8F14328AC3A4878354AEE0E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_393C4C2C7E9F4967AB821D84E40CADA3"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_5.png"
-            "TargetName" = "8:chicken_medium_5.png"
+            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_opengl.h"
+            "TargetName" = "8:SDL_opengl.h"
             "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2040,12 +2026,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_393C4C2C7E9F4967AB821D84E40CADA3"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_394DABE64FB14832A77297A0525EACF7"
             {
-            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_opengl.h"
-            "TargetName" = "8:SDL_opengl.h"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\bgm.mp3"
+            "TargetName" = "8:bgm.mp3"
             "Tag" = "8:"
-            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2120,6 +2106,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3E09D46850A0463DA044624709BD51E2"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_3.png"
+            "TargetName" = "8:explosion_3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3F2808F539144EB1BBE5715D293845DB"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_image\\lib\\x64\\optional\\LICENSE.dav1d.txt"
@@ -2140,10 +2146,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3F2C4F67310243D8BDE7ED90610FACF1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4047A6E97FF44F55957672B0408E07A5"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_fire_3.png"
-            "TargetName" = "8:barrel_fire_3.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_3.png"
+            "TargetName" = "8:chicken_medium_3.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -2166,6 +2172,26 @@
             "TargetName" = "8:SDL_test.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_441C5D63AB804C44998C65CB09A030C8"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\bullet.png"
+            "TargetName" = "8:bullet.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2260,10 +2286,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4940CF996F9D46A49F96D6F7154965EB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_49D1AAFF59814A8181EA861A20A92008"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_5.png"
-            "TargetName" = "8:explosion_5.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\background.png"
+            "TargetName" = "8:background.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -2280,10 +2306,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_49D9A548AA7C43F9BB07A581820C5898"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4B9BD4B532D64740AD82603AAA8E5B5A"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_6.png"
-            "TargetName" = "8:chicken_medium_6.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_fire_2.png"
+            "TargetName" = "8:barrel_fire_2.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -2340,10 +2366,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4D0872F67A974139A17EFC981A197777"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4E520953AB2D43EB9A3C34880EA517C7"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\background.png"
-            "TargetName" = "8:background.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_4.png"
+            "TargetName" = "8:chicken_medium_4.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -2406,6 +2432,26 @@
             "TargetName" = "8:SDL_haptic.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_52582FE558EE4B6CBF8CC387DFE2717A"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_fire_1.png"
+            "TargetName" = "8:barrel_fire_1.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2486,6 +2532,26 @@
             "TargetName" = "8:SDL_joystick.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_58B367A7292E409C95042B40E10EBCC8"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\star.png"
+            "TargetName" = "8:star.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2620,10 +2686,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5F510A4D75B24E6EB3F3534C154F7556"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5F8F3F7C02F8417A835A80509D04E0C1"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_2.png"
-            "TargetName" = "8:chicken_fast_2.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_1.png"
+            "TargetName" = "8:chicken_medium_1.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -2640,10 +2706,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5FCB8928471E48C0AB937CBEC2023A39"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5F9A9E5C6F9D4113A3B0D06077654C7E"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_1.png"
-            "TargetName" = "8:explosion_1.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_2.png"
+            "TargetName" = "8:chicken_fast_2.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -2666,26 +2732,6 @@
             "TargetName" = "8:SDL_clipboard.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_61FBDBA56C7D456F8730CDD247DA3299"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_fire_1.png"
-            "TargetName" = "8:barrel_fire_1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2760,30 +2806,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6A279BBA14C342DF9A3D3C877736EB86"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6AFD2934546C4D5297D2DC4129BF0CD4"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\crosshair.png"
-            "TargetName" = "8:crosshair.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6A8883F420D541E1B49249E016B8E044"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_fire_2.png"
-            "TargetName" = "8:barrel_fire_2.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_5.png"
+            "TargetName" = "8:chicken_slow_5.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -2806,6 +2832,26 @@
             "TargetName" = "8:SDL_timer.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6CA2BBB14B914A70A61F10A74D0B1284"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_3.png"
+            "TargetName" = "8:chicken_slow_3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2860,12 +2906,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_71DD4E970FF74152B58023248C7CB567"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_73D5BC8DD1BD435DBCEB9A3885C42677"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_2.png"
-            "TargetName" = "8:chicken_medium_2.png"
+            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_main.h"
+            "TargetName" = "8:SDL_main.h"
             "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2880,12 +2926,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_73D5BC8DD1BD435DBCEB9A3885C42677"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_74078453B89D473987314797E2A1E5B6"
             {
-            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_main.h"
-            "TargetName" = "8:SDL_main.h"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_3.png"
+            "TargetName" = "8:chicken_fast_3.png"
             "Tag" = "8:"
-            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2960,46 +3006,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_788BA1B22B0F4C98A1D2317C2CA68608"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_4.png"
-            "TargetName" = "8:chicken_slow_4.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_78F4280129884CE7816BE0076D4247D8"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_3.png"
-            "TargetName" = "8:chicken_fast_3.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_790A0AF5CDBF45C8B7FE51CBF63293F7"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL.h"
@@ -3046,26 +3052,6 @@
             "TargetName" = "8:SDL_version.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7AB17B620B3D4C538B4FBF46C9654CB6"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_3.png"
-            "TargetName" = "8:explosion_3.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3160,6 +3146,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7DE3A65477A14AA98578B35F782138E9"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion.wav"
+            "TargetName" = "8:explosion.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7F9C67B8CF7244D39D87E8478B225AB3"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_mixer\\lib\\x64\\optional\\LICENSE.xmp.txt"
@@ -3200,12 +3206,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_828D1C2F3A654A19B3B5C35602C58F43"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_81691E2BF84E4CD680A7A6C89E867BED"
             {
-            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_audio.h"
-            "TargetName" = "8:SDL_audio.h"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\hurt.wav"
+            "TargetName" = "8:hurt.wav"
             "Tag" = "8:"
-            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3220,12 +3226,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8306785B8E434670ADF583C6004FCBDE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_828D1C2F3A654A19B3B5C35602C58F43"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_idle.png"
-            "TargetName" = "8:barrel_idle.png"
+            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_audio.h"
+            "TargetName" = "8:SDL_audio.h"
             "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3260,7 +3266,27 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8AD511A0061F4A1BA908B602A9A57DE5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C9D7675B9CC481CBD3B5F5E8FCB4127"
+            {
+            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_test_fuzzer.h"
+            "TargetName" = "8:SDL_test_fuzzer.h"
+            "Tag" = "8:"
+            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8D91D9A8E9D447528463BB63A0C3A883"
             {
             "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_7.png"
             "TargetName" = "8:chicken_slow_7.png"
@@ -3280,12 +3306,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C9D7675B9CC481CBD3B5F5E8FCB4127"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8E2121A7868A45618C037ECF4C586D29"
             {
-            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_test_fuzzer.h"
-            "TargetName" = "8:SDL_test_fuzzer.h"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\speed.png"
+            "TargetName" = "8:speed.png"
             "Tag" = "8:"
-            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8EE700645BD247E982519388BBAE2FCB"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_6.png"
+            "TargetName" = "8:chicken_medium_6.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3326,6 +3372,26 @@
             "TargetName" = "8:LICENSE.freetype.txt"
             "Tag" = "8:"
             "Folder" = "8:_70205FB648BA4969AD40748014EC7170"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_92439DA897BF4E9D832442BBC1813464"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_2.png"
+            "TargetName" = "8:chicken_medium_2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3520,72 +3586,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9AB95184CC7A488E9C49B279C6BD1ED4"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_5.png"
-            "TargetName" = "8:chicken_slow_5.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9B3CA6E0703647D883C5EFA9E4F3D87D"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_types.h"
             "TargetName" = "8:SDL_types.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9D2AC4C470124942BF711A55051BBC2B"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_2.png"
-            "TargetName" = "8:chicken_slow_2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F2417809940453CA440FEA1E44443D4"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion.wav"
-            "TargetName" = "8:explosion.wav"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3620,10 +3626,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A52CA5C4145D41F78BF1271AC6D491EF"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A20DBF3B242D4B2A952A044405A02A7C"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\bullet.png"
-            "TargetName" = "8:bullet.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_4.png"
+            "TargetName" = "8:explosion_4.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -3646,6 +3652,26 @@
             "TargetName" = "8:SDL_render.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A76D843CC2474DDF956DDB42E46C05C7"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\loss.mp3"
+            "TargetName" = "8:loss.mp3"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3698,6 +3724,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A7CB9F350C6D4E57B1E2212C8A6BA4E1"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_2.png"
+            "TargetName" = "8:explosion_2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A8B2311BED4C4347A3AB520046740D8C"
@@ -3766,6 +3812,26 @@
             "TargetName" = "8:SDL_bits.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD873E83135A495C8BC083332918212A"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_1.png"
+            "TargetName" = "8:chicken_fast_1.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3900,52 +3966,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B21D08D5429B4353950E9162033F386D"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\fire_1.wav"
-            "TargetName" = "8:fire_1.wav"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B2B5081784474CF082BA7E05523E3432"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\loss.mp3"
-            "TargetName" = "8:loss.mp3"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3FA00C3AF134567B20370B673DC7E19"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_test_log.h"
             "TargetName" = "8:SDL_test_log.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B4587BF33796431E8D08663AC66E552B"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\stop.png"
+            "TargetName" = "8:stop.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3980,12 +4026,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B51AC624C1DB4D41818CC05CCA265FC2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B5F27BD75D1340F4972C8E1C8942ABC0"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_fast_4.png"
-            "TargetName" = "8:chicken_fast_4.png"
+            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_config.h"
+            "TargetName" = "8:SDL_config.h"
             "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4000,12 +4046,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B5F27BD75D1340F4972C8E1C8942ABC0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B69231606B3849E09B8BD3C04B29F9AC"
             {
-            "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_config.h"
-            "TargetName" = "8:SDL_config.h"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\battery.png"
+            "TargetName" = "8:battery.png"
             "Tag" = "8:"
-            "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4086,26 +4132,6 @@
             "TargetName" = "8:SDL2_ttf.lib"
             "Tag" = "8:"
             "Folder" = "8:_70205FB648BA4969AD40748014EC7170"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BA3231EBCB7D43B2AFBA7C8F689E9AE9"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_8.png"
-            "TargetName" = "8:chicken_slow_8.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4240,6 +4266,66 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BE7E9D15841C4C88AA0AB97829C3AB4A"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\fire_3.wav"
+            "TargetName" = "8:fire_3.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BED1E9B37AFB4F54A8081421BB2D83A6"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\random.png"
+            "TargetName" = "8:random.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BEEDD2FFE51544AE809C952CED2AA1E7"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\heart.png"
+            "TargetName" = "8:heart.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C047BF0B6E9B4FFFAE1415010656F0D6"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_mixer\\lib\\x64\\optional\\LICENSE.opusfile.txt"
@@ -4300,6 +4386,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C6A738546C8044FBBBB7AFDE670BE87B"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\IPix.ttf"
+            "TargetName" = "8:IPix.ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C83C2A880D2C42F1863611362D8EDC6A"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2\\lib\\x86\\SDL2.lib"
@@ -4326,26 +4432,6 @@
             "TargetName" = "8:SDL_image.h"
             "Tag" = "8:"
             "Folder" = "8:_D9B1014BB1FA4132A1B2CEEE16097C7C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CA89549CC85A46E588005F5B8A522844"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_1.png"
-            "TargetName" = "8:chicken_medium_1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4420,46 +4506,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE9DFE50DC4947CC87918FE49DF3A22A"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_1.png"
-            "TargetName" = "8:chicken_slow_1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CF63B9846F044EE3B80C37787944FE66"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\bgm.mp3"
-            "TargetName" = "8:bgm.mp3"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D06C3F0C4B3347ABA53608EABB53EBF3"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_image\\lib\\x86\\optional\\libwebp-7.dll"
@@ -4486,6 +4532,26 @@
             "TargetName" = "8:SDL_endian.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D3F684BC57DC4DA2B6595946655B8D8A"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_5.png"
+            "TargetName" = "8:chicken_medium_5.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4560,10 +4626,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DA21C0D98B6946D896F75F1003B513CA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB2EA6AA5E6C4B88AF5290AF865C456B"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_medium_3.png"
-            "TargetName" = "8:chicken_medium_3.png"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\gift.png"
+            "TargetName" = "8:gift.png"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -4580,10 +4646,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DBE93559E08F44CF93CB97DDB7D1D50C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB57C88A35F4483089B9316C4F8D66B4"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\hurt.wav"
-            "TargetName" = "8:hurt.wav"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\fire_2.wav"
+            "TargetName" = "8:fire_2.wav"
             "Tag" = "8:"
             "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
@@ -4626,26 +4692,6 @@
             "TargetName" = "8:SDL_messagebox.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DC84D5E7E16C487587884ED981D88D39"
-            {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\battery.png"
-            "TargetName" = "8:battery.png"
-            "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4760,6 +4806,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E691C5E0EB1F4EE88845B5733D5DD047"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_8.png"
+            "TargetName" = "8:chicken_slow_8.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E7406B2216F4411B8588A4A6359924C6"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2\\lib\\x64\\SDL2main.lib"
@@ -4806,6 +4872,26 @@
             "TargetName" = "8:SDL2.lib"
             "Tag" = "8:"
             "Folder" = "8:_5CCF06CAEA894F15952B8EB2FD123D4A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E9D957FC151B44C084BC18945AC7EF09"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\barrel_fire_3.png"
+            "TargetName" = "8:barrel_fire_3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4900,12 +4986,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F1FDBD6660714744AA2287ADCC014133"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\crosshair.png"
+            "TargetName" = "8:crosshair.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F265E9583FBA4004AFC0E1628FDA46F6"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2\\include\\SDL_metal.h"
             "TargetName" = "8:SDL_metal.h"
             "Tag" = "8:"
             "Folder" = "8:_133B1F9A2C484BDDBB63A20A0380AD1E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F44E7B4001AA44029D17F0084969F4DE"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_1.png"
+            "TargetName" = "8:explosion_1.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4980,6 +5106,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F93A8A2B0F1343C89AE2DF10E571D35F"
+            {
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_6.png"
+            "TargetName" = "8:chicken_slow_6.png"
+            "Tag" = "8:"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA7BA502AD0E4E4A8891CD332AAFA1E2"
             {
             "SourcePath" = "8:..\\Thirdparty\\SDL2_mixer\\lib\\x86\\optional\\LICENSE.ogg-vorbis.txt"
@@ -5000,12 +5146,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FBB851EEC25E4D7A8360CDCDD7705C34"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FB86A3B3BADF4C19BA2A68928B9AEC13"
             {
-            "SourcePath" = "8:..\\Thirdparty\\SDL2_image\\lib\\x86\\optional\\libtiff-5.dll"
-            "TargetName" = "8:libtiff-5.dll"
+            "SourcePath" = "8:..\\射暴坤坤\\resources\\chicken_slow_1.png"
+            "TargetName" = "8:chicken_slow_1.png"
             "Tag" = "8:"
-            "Folder" = "8:_4BC4A1BA1B8842ED894F855C2573C7D4"
+            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5020,12 +5166,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FD2E314D445541EA8C7ADE90A51E01ED"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FBB851EEC25E4D7A8360CDCDD7705C34"
             {
-            "SourcePath" = "8:..\\射暴坤坤\\resources\\explosion_2.png"
-            "TargetName" = "8:explosion_2.png"
+            "SourcePath" = "8:..\\Thirdparty\\SDL2_image\\lib\\x86\\optional\\libtiff-5.dll"
+            "TargetName" = "8:libtiff-5.dll"
             "Tag" = "8:"
-            "Folder" = "8:_6E227B945C7F4E1ABF550673E1CC492C"
+            "Folder" = "8:_4BC4A1BA1B8842ED894F855C2573C7D4"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5913,7 +6059,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_AC390A7F0B69440E8237DC94AA1FE085"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8C20A680D6DB4030BF3527C7ADC1C402"
             {
             "SourcePath" = "8:..\\x64\\Release\\射暴坤坤.exe"
             "TargetName" = "8:"
